@@ -12,6 +12,7 @@ export default function Card () {
                     <div className={style.vehicleimage}>
                         <img 
                             src={sedans.src}
+                            alt="sedan"
                         />
                     </div>
                     <div className={style.vehicletype}>
@@ -34,6 +35,7 @@ export default function Card () {
                     <div className={style.vehicleimage}>
                         <img 
                             src={suvs.src}
+                            alt="suvs"
                         />
                     </div>
                     <div className={style.vehicletype}>
@@ -56,6 +58,7 @@ export default function Card () {
                     <div className={style.vehicleimage}>
                         <img 
                             src={luxury.src}
+                            alt="luxury"
                         />
                     </div>
                     <div className={style.vehicletype}>
