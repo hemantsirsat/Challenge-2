@@ -9,7 +9,8 @@
 .sedancardContainer, .suvscardContainer, .luxurycardContainer {
     position: relative;
     width: 25%;
-    height: 70vh;   
+    min-height: 70vh; 
+    max-height: 100%;  
 }
 
 .sedancardContainer {
