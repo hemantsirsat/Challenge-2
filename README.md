@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./public/Desktop.png" width="80px" height="100px"/>
-<img src="./public/Mobile.png" width="50px" height="50px"/>
+![](./public/Desktop.png)
+![](./public/Mobile.png)
 
 
 ### Links
