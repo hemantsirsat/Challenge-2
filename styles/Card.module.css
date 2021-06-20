@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedancardContainer, .suvscardContainer, .luxurycardContainer {
+    position: relative;
+    width: 25%;
+    height: 70vh;   
+}
+
+.sedancardContainer {
+    background-color: #dd882c;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.suvscardContainer {
+    background-color: #006970;
+}
+
+.luxurycardContainer {
+    background-color: #004241;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.sedancontent, .suvscontent, .luxurycontent {
+    margin: 2.5rem;
+}
+
+.vehicletype {
+    display: flex;
+    margin-top: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+    color: #f2f2f2;
+    font-size: 4ch;
+    text-transform: uppercase;
+}
+
+
+.vehicledescription {
+    text-align: left;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.4ch;
+    opacity: 0.75;
+    line-height: 1.3rem;
+}
+
+.learnmorecontainer {
+    background-color: transparent;
+}
+
+.sedanlearnmorebutton, .suvslearnmorebutton, .luxurylearnmorebutton {
+    position: absolute;
+    bottom: 2.5rem;
+    background-color: transparent;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+    height: 2.5rem;
+    border: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+}
+
+.sedanlearnmorebutton {
+    color: #dd882c;
+}
+
+.suvslearnmorebutton {
+    color: #006970;
+}
+
+.luxurylearnmorebutton {
+    color: #004241;
+}
+
+.sedanlearnmorebutton:hover, .suvslearnmorebutton:hover, .luxurylearnmorebutton:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #f2f2f2;
+    border: 2px #f2f2f2 solid;   
+}
+
+@media (max-width: 800px){
+    .sedancardContainer, .suvscardContainer, .luxurycardContainer {
+        width: 28%;
+        height: 73vh;   
+    }
+}
+
+@media (max-width: 668px){
+    .cardcontainer {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .sedancardContainer, .suvscardContainer, .luxurycardContainer {
+        width: 100%;
+        height: 30rem;   
+    }
+
+    .sedancardContainer {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+    }
+    
+    .luxurycardContainer {
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0;
+    }
+}
